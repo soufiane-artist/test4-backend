@@ -11,11 +11,11 @@ const path = require("path")
 
 
 //client
-
+/*
 app.use(express.static(path.join(__dirname,'/client/build')))
 app.get('*',(req,res)=>{
     res.sendFile(path.join(__dirname,'/client/build/index.html'))
-})
+})*/
 
 /*const serveStatic = require('serve-static');
 app.use(serveStatic(path.join(__dirname, 'client/build'), {
