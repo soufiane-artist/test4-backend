@@ -34,7 +34,7 @@ const limiter = rateLimit({
 app.use(helmet());
 app.use(cors({
     origin: ["http://localhost:3000","http://localhost:3000/api/send","http://localhost:2002/api/send", "https://frontend-aabg.onrender.com/api/send"],
-    methods: ["GET", "POST"]
+    methods: ["GET","POST","PUT","DELETE"]
 }));
 dotenv.config()
 db()
